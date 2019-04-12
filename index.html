@@ -4,10 +4,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
   </head>
@@ -18,7 +19,7 @@
     <header>
       <div class="container">
         <!-- <div id="logo"> -->
-          <img src="assets/images/fpo.png" alt="logo">
+          <img src="assets/images/fpo.png" alt="logo" style="height:76px width 100px">
         <!-- </div> -->
       <nav>
         <div class="toggle">
@@ -26,7 +27,7 @@
         </div>
         <ul>
           <li> <a href="#">About</a> </li>
-        <button class="button_3"> <li> Donate </li> </button>
+        <button class="button_3"> Donate  </button>
         </ul>
       </nav>
       </div>
@@ -47,26 +48,39 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <h3> <a href="#"> Hyperlink for Blog post headline on the front page </a> </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+          <div class="container">
+          <h3> <a href="#"> Hyperlink for blog post headline on the front page </a> </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
     </div>
+  </div>
+
       <div class="col-sm-6">
-        <h3> <a href="#"> Hyperlink for Blog post headline on the front page </a> </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+        <div class="container">
+        <h3> <a href="#"> Hyperlink for blog post headline on the front page </a> </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
     </div>
+  </div>
 </div>
     </div>
   </section>
 
 <!-- NEWSLETTER -->
   <section id="newsletter">
-  <div class="container">
+  <div class="container1">
     <h2>Join the campaign</h2>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <p>
-      <form>
-        <input type="email" placeholder="Email">
-        <input type="number" placeholder="Zipcope">
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <p>
+      <!-- <form>
+        <input type="email" placeholder="email address">
+        <input type="number" placeholder="zip cope">
         <button type="submit" class="button_1"> Join </button>
+      </form> -->
+      <form class="form-inline" action="/action_page.php">
+
+        <input type="email" placeholder="email address" name="email">
+
+        <input type="number" placeholder="zipcode" name="zipcode">
+
+        <button type="submit1">JOIN</button>
       </form>
   </div>
   </section>
@@ -78,7 +92,9 @@
       <img src="assets/images/fpo.png" alt="logo">
     </div>
   <div class="border">
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt u </p>
+    <p> PAID BY FOR BY ORGANISATION </p>
+    <p> 1621 MASSACHUSETTS AVE, WASHINGTON, D.C 20009 </p>
+
   </div>
   </footer>
 
