@@ -227,6 +227,7 @@
     }
 
     /* Media Queries / Responsive*/
+
     @media(max-width: 768px) {
       header nav,
       #newsletter h1,
@@ -236,42 +237,84 @@
         width: 100%;
       }
 
+      .toggle {
+        display: block;
+        margin-left: 160px;
+         }
+
+       ul {
+         width: 100%;
+         display: none;
+       }
+
+       header img{
+         margin-top: 7px;
+       }
+
+       .active {
+         display: block;
+       }
+
+        header{
+          padding-bottom:20px;
+        }
+
+      #part2 h1{
+        margin-top: 370px;
+        margin-left: 20px;
+        /* font-size: 30px; */
+      }
+      #part2 .button_2{
+        margin-left: 20px;
+      }
+
+      #part2{
+        height: 750px !important;
+      }
+
+      /* NEWSLETTER RESPONSIVE */
       #newsletter{
         height: 100%;
       }
 
-     .toggle {
-       display: block;
-       margin-left: 140px;
-     }
-
-     ul {
-       width: 100%;
-       display: none;
-     }
-
-     header img{
-       margin-top: 7px;
-     }
-
-     .active {
-       display: block;
-     }
-
-      header{
-        padding-bottom:20px;
+      #newsletter h2{
+        font-size: 25px ;
+        font-weight: bold;
+        margin-left: -23px;
+        margin-top: 10px;
       }
 
-      #showcase h1{
-        margin-top:40px;
+      #newsletter p{
+        font-size: 14px ;
+        margin-left: -23px;
+        margin-top: 40px;
+        margin-bottom:-15px;
       }
 
-      #newsletter form input[type="email"], input[type="number"], button[type="submit1"]{
+      #newsletter form input[type="email"], input[type="number"], input button[type="submit1"]{
         height: 100%;
         display: block !important;
         height: 60px !important;
         width: 375px !important;
-        margin: 15px 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 23px;
+      }
+      #newsletter form input[type="email"]{
+        margin-left: -23px;
+        }
+
+      #newsletter input[type="number"] {
+        margin-left: -23px;
+        font-size: 23px;
+      }
+
+      #newsletter  button[type="submit1"] {
+        margin-left: -23px !important;
+        height: 60px;
+        width: 375px;
+        font-size: 15px;
+        margin-bottom: 35px;
       }
 
       #part3{
@@ -279,12 +322,23 @@
         text-align: left;
       }
 
+      #logo1 img{
+       margin-top: -30px;
+
+      }
+      .menu {
+      font-size: 60px;
+      margin-bottom: -20px;
+      margin-top: -15px;
+      }
       .border  {
-        width: auto;
-        height: auto;
+        width: 385px;
+        height: 105px;
+        margin-left: -75px;
+        margin-top: 50px;
       }
 
       .border p{
-        font-size: 15px;
+        font-size: 16px;
       }
     }
