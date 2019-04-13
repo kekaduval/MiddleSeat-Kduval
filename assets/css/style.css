@@ -228,7 +228,7 @@
 
     /* Media Queries / Responsive*/
 
-    @media(max-width: 768px) {
+    @media(max-width: 540px) {
       header nav,
       #newsletter h1,
       #newsletter form, #part3{
@@ -331,6 +331,7 @@
       margin-bottom: -20px;
       margin-top: -15px;
       }
+
       .border  {
         width: 385px;
         height: 105px;
