@@ -219,8 +219,7 @@
       display: inline-block;
       color: gray;
       letter-spacing: 1.5px;
-      /* font-weight: bold; */
-    }
+        }
 
       .border p {
       margin-top: 9px;
@@ -320,6 +319,14 @@
       #part3{
         height: auto;
         text-align: left;
+      }
+      #part3 h3 {
+        font-size: 33px;
+        letter-spacing: 2px;
+      }
+
+      #part3 p {
+        font-size: 17px;
       }
 
       #logo1 img{
