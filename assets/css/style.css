@@ -177,14 +177,17 @@
       font-size: 38px;
       margin-bottom: 28px;
       letter-spacing: 0.7px;
+      margin-left: 20px;
     }
 
     #part3 p {
-      font-size: 20px;
-      line-height: 38px;
-      letter-spacing: 3.5px;
-
+      font-size: 18px;
+      line-height: 39px;
+      letter-spacing: 3px;
+      margin-left: 20px;
+      font-weight: 500;
       }
+
 
     .toggle {
       width: 100%;
