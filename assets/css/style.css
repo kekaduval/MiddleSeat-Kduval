@@ -284,10 +284,11 @@
       }
 
       #newsletter p{
-        font-size: 14px ;
+        font-size: 10px ;
         margin-left: -23px;
-        margin-top: 40px;
+        margin-top: 30px;
         margin-bottom:-15px;
+        font-weight: bold;
       }
 
       #newsletter form input[type="email"], input[type="number"], input button[type="submit1"]{
